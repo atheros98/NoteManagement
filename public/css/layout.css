@@ -1,0 +1,109 @@
+body{
+    background-color: #f1f1f1
+}
+.div-note{
+    text-align: left;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ddffff;
+    font-size: 20px;
+    border-left: solid 7px #2196F3;
+    border-top: 7px solid white;
+    margin-right: 7px;
+}
+
+.div-list{
+    padding-top: 0px;
+    margin: 0px;    
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+    box-shadow: 1px 1px 2px grey;
+    background-color: white;
+}
+
+#edit{
+    margin: 6px;
+    float: right;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+#delete{
+    margin: 3px;
+    float: right;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#save{
+    margin: 3px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#cancel{
+    margin: 6px;
+    float: right;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+#add{
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+div.header{
+    margin: 0;
+    display: table-cell;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    background-color: #3367d6;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left: 0px;
+    overflow: auto;
+    /*box-shadow: 0px 6px 3px grey;*/
+}
+p#header{
+    margin: 15px;
+}
+div.text-area{
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding-right: 20px;
+    width: 100%;
+    resize: none;
+}
+p { 
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+div.empty-list{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
